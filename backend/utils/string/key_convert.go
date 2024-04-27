@@ -1,8 +1,8 @@
 package strutil
 
 import (
+	sliceutil "Algo4evaluation/backend/utils/slice"
 	"strconv"
-	sliceutil "tinyrdm/backend/utils/slice"
 )
 
 // EncodeRedisKey encode the redis key to integer array

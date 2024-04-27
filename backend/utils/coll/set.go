@@ -1,10 +1,10 @@
 package coll
 
 import (
+	. "Algo4evaluation/backend/utils"
 	"encoding/json"
 	"fmt"
 	"sort"
-	. "tinyrdm/backend/utils"
 )
 
 type Void struct{}

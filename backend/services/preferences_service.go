@@ -1,20 +1,21 @@
 package services
 
 import (
+	"Algo4evaluation/backend/consts"
+	storage2 "Algo4evaluation/backend/storage"
+	"Algo4evaluation/backend/types"
+	"Algo4evaluation/backend/utils/coll"
+	convutil "Algo4evaluation/backend/utils/convert"
+	sliceutil "Algo4evaluation/backend/utils/slice"
 	"context"
 	"encoding/json"
-	"github.com/adrg/sysfont"
-	runtime2 "github.com/wailsapp/wails/v2/pkg/runtime"
 	"net/http"
 	"sort"
 	"strings"
 	"sync"
-	"tinyrdm/backend/consts"
-	storage2 "tinyrdm/backend/storage"
-	"tinyrdm/backend/types"
-	"tinyrdm/backend/utils/coll"
-	convutil "tinyrdm/backend/utils/convert"
-	sliceutil "tinyrdm/backend/utils/slice"
+
+	"github.com/adrg/sysfont"
+	runtime2 "github.com/wailsapp/wails/v2/pkg/runtime"
 )
 
 type preferencesService struct {

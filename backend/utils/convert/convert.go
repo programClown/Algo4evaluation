@@ -1,10 +1,10 @@
 package convutil
 
 import (
+	"Algo4evaluation/backend/types"
+	strutil "Algo4evaluation/backend/utils/string"
 	"errors"
 	"regexp"
-	"tinyrdm/backend/types"
-	strutil "tinyrdm/backend/utils/string"
 )
 
 type DataConvert interface {

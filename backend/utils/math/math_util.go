@@ -1,8 +1,8 @@
 package mathutil
 
 import (
+	. "Algo4evaluation/backend/utils"
 	"math"
-	. "tinyrdm/backend/utils"
 )
 
 // MaxWithIndex 查找所有元素中的最大值

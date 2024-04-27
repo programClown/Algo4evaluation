@@ -1,10 +1,10 @@
 package sliceutil
 
 import (
+	. "Algo4evaluation/backend/utils"
 	"sort"
 	"strconv"
 	"strings"
-	. "tinyrdm/backend/utils"
 )
 
 // Get 获取指定索引的值, 如果不存在则返回默认值
